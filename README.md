@@ -5,6 +5,7 @@ In this project, two separate models for each of three different crypto currency
 The dataset includes the open, low, high, and close price of a numerous crypto currencies. It could be found using the link below on Kaggle:</br>
 https://www.kaggle.com/datasets/svaningelgem/crypto-currencies-daily-prices/data
 </br>
+![Crypto-Price-History](https://github.com/user-attachments/assets/3d30a8c4-c804-4d94-9bd3-5774ecdf8e94)
 
 </br>
 In this project, Cardano, Bitcoin, and Ethereum crypto has been used to train models.
@@ -45,4 +46,5 @@ In order to include the impact of the previous days prices in the simple feed-fo
 In order to feed the data to LSTM model, we need the data to be in the format of Features, Target, and the time steps. The time steps are the historical window that the model will be trained on for each data point.
 
 ### 5- Conclusion
-As it was expected, the LSTM model performed better in all three cases for Cardano, Bitcoin, and Ethereum. The loss during the training stage was lower for the LSTM model rather than the feed forward model. Also, the trainig curve was more stable during training the LSTM, while it was fluctuated for training the feed-forward model that it showed the model didn't learn the pattern very well in feed-forward modeling. The prediction was the final evidence that showed the performance of the LSTM model was way better than the feed-forward model as it could be seen below:
+As it was expected, the LSTM model performed better in all three cases for Cardano, Bitcoin, and Ethereum. The loss during the training stage was lower for the LSTM model rather than the feed forward model. Also, the trainig curve was more stable during training the LSTM, while it was fluctuated for training the feed-forward model that it showed the model didn't learn the pattern very well in feed-forward modeling. The prediction was the final evidence that showed the performance of the LSTM model was way better than the feed-forward model as it could be seen below:</br>
+![Crypto-Price-Prediction](https://github.com/user-attachments/assets/c1e41418-3f86-430c-8afb-853adfa4adf6)
